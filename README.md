@@ -1,4 +1,4 @@
-#PrestoODataService
+#Presto OData Service
 
 Work in progress for an OData service implementation on top of Presto using Presto's JDBC driver. The ultimate goal is to have a proper OData service that can be integrated with other tools such as Tableau.
 
