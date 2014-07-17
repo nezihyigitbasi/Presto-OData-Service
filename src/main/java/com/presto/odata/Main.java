@@ -15,7 +15,7 @@ public class Main {
                 .build();
 
         DefaultODataProducerProvider.setInstance(producer);
-        new ODataServerFactory().hostODataServer("http://localhost:8888/TestService.svc/");
+        new ODataServerFactory().hostODataServer("http://localhost:8888/PrestoODataService.svc/");
     }
 
 }
