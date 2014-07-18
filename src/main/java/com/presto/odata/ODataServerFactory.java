@@ -16,7 +16,6 @@ public class ODataServerFactory {
         ODataServer server = null;
         try {
             server = startODataServer(baseUri);
-
             System.out.println("Press any key to terminate");
             new BufferedReader(new InputStreamReader(System.in)).readLine();
         } catch (IOException e) {
