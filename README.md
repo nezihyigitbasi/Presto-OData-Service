@@ -26,7 +26,13 @@ Try the following URLs:
 [http://localhost:8888/PrestoODataService.svc/addresses?$format=json](http://localhost:8888/PrestoODataService.svc/addresses?$format=json)    
 [http://localhost:8888/PrestoODataService.svc/addresses?$filter=city eq 'c4' and street eq 's1'&$format=json](http://localhost:8888/PrestoODataService.svc/addresses?$filter=city eq 'c4' and street eq 's1'&$format=json)  
 [http://localhost:8888/PrestoODataService.svc/addresses?$filter=city eq 'c4'&$format=json](http://localhost:8888/PrestoODataService.svc/addresses?$filter=city eq 'c4'&$format=json)    
-[http://localhost:8888/PrestoODataService.svc/addresses?$filter=apt eq 5&$format=json](http://localhost:8888/PrestoODataService.svc/addresses?$filter=apt eq 5&$format=json)  
+[http://localhost:8888/PrestoODataService.svc/addresses?$filter=apt eq 5&$format=json](http://localhost:8888/PrestoODataService.svc/addresses?$filter=apt eq 5&$format=json)
+[http://localhost:8888/PrestoODataService.svc/addresses?$orderby=apt desc&$format=json](http://localhost:8888/PrestoODataService.svc/addresses?$orderby=apt desc&$format=json)
+[http://localhost:8888/PrestoODataService.svc/addresses?$orderby=apt asc&$format=json](http://localhost:8888/PrestoODataService.svc/addresses?$orderby=apt asc&$format=json)
+[http://localhost:8888/PrestoODataService.svc/addresses/$count](http://localhost:8888/PrestoODataService.svc/addresses/$count)
+[http://localhost:8888/PrestoODataService.svc/addresses?$select=city&$format=json](http://localhost:8888/PrestoODataService.svc/addresses?$select=city&$format=json)
+[http://localhost:8888/PrestoODataService.svc/addresses?$select=city,apt&$format=json](http://localhost:8888/PrestoODataService.svc/addresses?$select=city,apt&$format=json)
+[http://localhost:8888/PrestoODataService.svc/addresses?$select=city,apt,street&$format=json](http://localhost:8888/PrestoODataService.svc/addresses?$select=city,apt,street&$format=json)
 
 #Dependencies
 odata4j 0.70 (http://odata4j.org/)   
