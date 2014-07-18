@@ -22,7 +22,7 @@ Start the service:
 mvn exec:java
 
 Try the following URLs:  
-<a href="http://localhost:8888/PrestoODataService.svc/$metadata?$format=json">http://localhost:8888/PrestoODataService.svc/$metadata?$format=json</a>
+[http://localhost:8888/PrestoODataService.svc/$metadata?$format=json](http://localhost:8888/PrestoODataService.svc/$metadata?$format=json)
 [http://localhost:8888/PrestoODataService.svc/addresses?$format=json](http://localhost:8888/PrestoODataService.svc/addresses?$format=json)    
 [http://localhost:8888/PrestoODataService.svc/addresses?$filter=city eq 'c4' and street eq 's1'&$format=json](http://localhost:8888/PrestoODataService.svc/addresses?$filter=city eq 'c4' and street eq 's1'&$format=json)  
 [http://localhost:8888/PrestoODataService.svc/addresses?$filter=city eq 'c4'&$format=json](http://localhost:8888/PrestoODataService.svc/addresses?$filter=city eq 'c4'&$format=json)    
